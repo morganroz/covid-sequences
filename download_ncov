@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# pull sequences yaml from nucleotides db
+cd /Users/morganrozman/Documents/Summer20/covid/covid/data
+curl -O https://www.ncbi.nlm.nih.gov/projects/genome/sars-cov-2-seqs/ncov-sequences.yaml
