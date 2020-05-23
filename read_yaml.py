@@ -4,6 +4,7 @@
 import yaml
 from sequence import Sequence
 import reprlib # for limiting print output
+from connect import connect # for postgresql connection
 
 with open(r'data/ncov-sequences.yaml') as file:
     seq_file = yaml.full_load(file)
@@ -19,3 +20,4 @@ with open(r'data/ncov-sequences.yaml') as file:
         new_seq = Sequence(seq['accession'], seq['accession-link'], seq['collection-date'], seq['country'])
         seqs.append(new_seq)
 
+    connect()

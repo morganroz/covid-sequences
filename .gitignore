@@ -2,3 +2,4 @@ data/
 archive/
 .DS_Store
 __pycache__/
+database.ini
