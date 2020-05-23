@@ -8,13 +8,12 @@
 
 1. Create a postgres database for the sequence data
 2. Create a table called "accession" with the following fields:
-{
+
 	- accessid
 	- accession
 	- accession_link
 	- collection_date
 	- country
-}
 
 ```sql
 CREATE TABLE accession
