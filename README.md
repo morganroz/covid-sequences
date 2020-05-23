@@ -1,4 +1,4 @@
-# covid-sequences
+# covid-sequences - WORK IN PROGRESS
 
 ## config
 
